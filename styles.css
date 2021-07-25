@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ div{
+     min-height: 90vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 60px;
+     color: rgb(66, 0, 66);
+     font-family: 'Lobster', cursive;
+     
+ }
+ .banner{
+     color: rgb(204, 49, 209);
+     background: url("./img/photo-3.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+ }
+ .header{
+     background: linear-gradient(160deg,#3a093f, #942f5d, #89498b);
+     background-attachment: fixed;
+ }
+ .image{
+     background: url("./img/beautiful_singapore_reflection-wallpaper-2880x1620.jpg") center/cover no-repeat fixed;
+     color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+ }
+.product-1{
+    background: linear-gradient(160deg,#3a093f, #942f5d, #89498b);
+     background-attachment: fixed;
+    margin: 3vw;
+    
+    
+    
+
+}
+.product1{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 50%;
+}
+
+.hello{
+    background: url("./img/pexels-photo-4021868.jpeg")center/cover no-repeat fixed;
+}
+.example{
+    font-size: 10vw;
+}
+
+p{
+    font-size: 3vw;
+    margin-right: 5vw;
+}
+#heading{
+    font-size: 12vw;
+}
+.text{
+    font-size: 8vw;
+}
